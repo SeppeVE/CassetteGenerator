@@ -17,7 +17,6 @@ const handleSubmit = () => {
 <template>
   <form @submit.prevent="handleSubmit" class="form-container">
     <label>
-      Name:
       <input v-model="formData.name" type="text" required />
     </label>
 

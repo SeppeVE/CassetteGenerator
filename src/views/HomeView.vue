@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import SimpleForm from "../components/SongForm.vue";
+import Calculator from "@/components/Calculator.vue";
 </script>
 
 <template>
   <div class="home">
-    <h1>Simple Form Example</h1>
-    <SimpleForm />
+    <h1>Cassette generator</h1>
+    <Calculator />
   </div>
 </template>
 
